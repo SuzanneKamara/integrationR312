@@ -13,13 +13,13 @@
 --clr-green-300: oklch(79.2% 0.209 151.711);
 
 --ff-sans:"Space Grotesk", sans-serif;
---fw-bold:bold;
+
 /* --fs:breakpoint; */
 }
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-   
+@utility .underline-green {
+    /* @apply underline; */
+    @apply after:decoration-color-(--clr-green);
+    
 }
+    

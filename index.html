@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/src/style.css" rel="stylesheet" />
-  </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
-    <figure>
-      <figcaption>
-        <h1 class="fig-title">adamkeyes</h1>
-        <div class="fig-socials">
-          <a href="" class="github-link"><img src="./public/R312-25-TD5/assets/Icons/icon-github.svg" alt="github icon"></a>
-        </div>
-        <picture>
-          <source media="(min-width: 1024px)" srcset="/public/R312-25-TD5/assets/Profile/image-profile-desktop.webp" />
-          <source media="(min-width: 768px)" srcset="/public/R312-25-TD5/assets/Profile/image-profile-tablet.webp" />
-          <img src="/public/R312-25-TD5/assets/Profile/image-profile-mobile.webp" alt="profile " />
-        </picture>
-      </figcaption>
-      <img src="/src/assets/image1.jpg" alt="Description de l'image" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/src/style.css" rel="stylesheet" />
+</head>
+
+<body
+  class="bg-(--clr-gray-900) text-white font-(--ff-sans)  flex flex-col items-center justify-center min-h-screen gap-8">
+
+  <figure class="relative ">
+    <div class="z-3 absolute text-center mb-6 w-full">
+      <h1 class="fig-title text-2xl ">adamkeyes</h1>
+      <div class="fig-socials flex gap-4 justify-center my-4">
+        <a href="" class="github-link"><img src="./public/R312-25-TD5/assets/Icons/icon-github.svg"
+            alt="github icon"></a>
+            <a href=""><img src="/public/R312-25-TD5/assets/Icons/icon-frontend-mentor.svg" alt="" srcset=""></a>
+        <a href="" class="linkedin-link"><img src="./public/R312-25-TD5/assets/Icons/icon-linkedin.svg"
+            alt="linkedin icon"></a>
+        <a href="" class="twitter-link"><img src="./public/R312-25-TD5/assets/Icons/icon-twitter.svg"
+            alt="twitter icon"></a>
+      </div>
       
-    </figure>
-  </body>
+    </div>
+    <picture class="z-0 relative top-0 w-full h-full">
+        <source media="(min-width: 1024px)" srcset="/public/R312-25-TD5/assets/Profile/image-profile-desktop.webp" />
+        <source media="(min-width: 768px)" srcset="/public/R312-25-TD5/assets/Profile/image-profile-tablet.webp" />
+        <img  src="/public/R312-25-TD5/assets/Profile/image-profile-mobile.webp"
+          alt="profile " />
+      </picture>
+      <figcaption>
+        <h1 class="text-3xl font-">Nice to meet you! <br> I'm <span class="underline underline-green"> Adam Keyes.</span></h1>
+        <p>Based in the UK, I'm a front-end developer passionate about building accessible web apps that users love.</p>
+      </figcaption>
+  </figure>
+</body>
+
 </html>
