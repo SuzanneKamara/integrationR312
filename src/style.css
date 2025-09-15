@@ -14,5 +14,12 @@
 
 --ff-sans:"Space Grotesk", sans-serif;
 --fw-bold:bold;
---fs:breakpoint;
+/* --fs:breakpoint; */
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
 }
