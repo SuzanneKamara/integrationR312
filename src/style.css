@@ -17,9 +17,3 @@
 /* --fs:breakpoint; */
 }
 
-@utility .underline-green {
-    /* @apply underline; */
-    @apply after:decoration-color-(--clr-green);
-    
-}
-    
