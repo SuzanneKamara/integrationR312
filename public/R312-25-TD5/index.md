@@ -31,13 +31,13 @@ Projects
 CONTACT ME
 
     Design Portfolio
-    DESIGN PORTFOLIO
-        HTML
-        CSS
-        VIEW PROJECT
-        VIEW CODE
+    
+        
+        
+        
+        
     E-learning Landing Page
-    E-LEARNING LANDING PAGE
+    
         HTML
         CSS
         VIEW PROJECT
@@ -46,25 +46,25 @@ CONTACT ME
     TODO WEB APP
         HTML
         CSS
-        JAVASCRIPT
+        
         VIEW PROJECT
         VIEW CODE
     Entertainment Web App
-    ENTERTAINMENT WEB APP
+    
         HTML
         CSS
         JAVASCRIPT
         VIEW PROJECT
         VIEW CODE
     Memory Game
-    MEMORY GAME
+    
         HTML
         CSS
         JAVASCRIPT
         VIEW PROJECT
         VIEW CODE
     Art Gallery Showcase
-    ART GALLERY SHOWCASE
+    
         HTML
         CSS
         JAVASCRIPT
