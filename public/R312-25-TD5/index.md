@@ -8,22 +8,22 @@ Based in the UK, I'm a front-end developer passionate about building accessible 
 CONTACT ME
 Skills and Experience
 
-    HTML
+    
+
+   
+    
 
     4 Years Experience
-    CSS
+    
 
     4 Years Experience
-    JavaScript
+    
 
     4 Years Experience
-    Accessibility
-
-    4 Years Experience
-    TailwindCss
+    
 
     3 Years Experience
-    Sass
+    
 
     3 Years Experience
 

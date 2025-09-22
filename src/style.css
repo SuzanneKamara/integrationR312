@@ -17,3 +17,11 @@
 /* --fs:breakpoint; */
 }
 
+@theme inline{
+
+}
+
+@utility  lnk{
+    color:var(--clr-green);
+    text-decoration:underline;
+}
