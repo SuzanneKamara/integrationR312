@@ -25,3 +25,7 @@
     color:var(--clr-green);
     text-decoration:underline;
 }
+@utility underline-green{
+    text-decoration:underline;
+    text-decoration-color:var(--clr-green-300);
+}
