@@ -7,14 +7,14 @@
   <link href="/src/style.css" rel="stylesheet" />
 </head>
 
-<body class="font-(family-name:--ff-sans) bg-(--clr-gray-900) text-(--clr-white) flex flex-col items-center">
+<body class="  font-(family-name:--ff-sans) bg-(--clr-gray-900) text-(--clr-white) flex flex-col items-center">
 
   <header
-    class="justify-center flex-col  items-center relative  text-white   flex  font-bold   w-full">
+    class=" p-4justify-center flex-col  items-center relative  text-white   flex  font-bold   w-full">
     <div class="row-start-1 z-3 absolute top-0 text-center mb-6 w-full">
       <h1 class="fig-title text-2xl ">adamkeyes</h1>
-      <div class="fig-socials flex gap-4 justify-center my-4">
-        <a href="" class="github-link"><img src="./public/R312-25-TD5/assets/Icons/icon-frontend-mentor.svg"
+      <div class="fig-socials flex gap-8 justify-center my-4 ">
+        <a href="" class="github-link"><img src="./public/R312-25-TD5/assets/Icons/icon-github.svg"
             alt="github icon"></a>
         <a href=""><img src="/public/R312-25-TD5/assets/Icons/icon-frontend-mentor.svg" alt="" srcset=""></a>
         <a href="" class="linkedin-link"><img src="./public/R312-25-TD5/assets/Icons/icon-linkedin.svg"
@@ -24,7 +24,7 @@
       </div>
 
     </div>
-    <picture class=" z-0 relative top-0 w-full  ">
+    <picture class=" z-0 relative top-0 w-full  bg">
       <source media="(min-width: 1024px)" srcset="/public/R312-25-TD5/assets/Profile/image-profile-desktop.webp" />
       <source media="(min-width: 768px)" srcset="/public/R312-25-TD5/assets/Profile/image-profile-tablet.webp" />
       <img class="justify-self-center" src="/public/R312-25-TD5/assets/Profile/image-profile-mobile.webp"
@@ -35,11 +35,12 @@
       </h1>
       <p>Based in the UK, I'm a front-end developer passionate about building accessible web apps that users love.</p>
     </section>
-  </header>
-  <hr>
-  <ul class="flex flex-col items-center">
+  
+  <hr class="bg-(--clr-white) w-full ">
+  <!-- skills -->
+  <ul class="flex flex-col items-center text-center gap-4 titles">
     <li>
-      <h3>HTML</h3>
+      <h3 >HTML</h3>
       <p class="text-(--clr-gray-400)"> 4 Years Experience</p>
     </li>
     <li>
@@ -63,12 +64,16 @@
       <p class="text-(--clr-gray-400)"> 4 Years Experience</p>
     </li>
   </ul>
+  
+  </header>
   <br>
-  <main class="flex flex-col items-center">
+  <!-- main -->
+  <main class=" p-4 flex flex-col items-center">
     <h1>Projects</h1>
     <a class="lnk" href="">Contact Me</a>
-
-    <figure class="flex flex-col items-center">
+    <!-- project cards -->
+     <!-- 1 -->
+    <figure >
       <picture>
         <source media="(min-width: )" srcset="./public/R312-25-TD5/assets/Projects/thumbnail-project-1-large">
         <source media="(min-width: 768px)" srcset="">
@@ -89,8 +94,8 @@
     </figure>
 
 
-
-    <figure class="flex flex-col items-center">
+<!-- 2 -->
+    <figure >
       <picture>
         <source media="(min-width: )" srcset="./public/R312-25-TD5/assets/Projects/thumbnail-project-1-large">
         <source media="(min-width: 768px)" srcset="">
@@ -109,8 +114,8 @@
         </div>
       </figcaption>
     </figure>
-
-    <figure class="flex flex-col items-center">
+<!-- 3 -->
+    <figure >
       <picture>
         <source media="(min-width: )" srcset="./public/R312-25-TD5/assets/Projects/thumbnail-project-1-large">
         <source media="(min-width: 768px)" srcset="">
@@ -130,15 +135,15 @@
         </div>
       </figcaption>
     </figure>
-
-    <figure>
+<!-- 4 -->
+    <figure >
       <picture>
         <source media="(min-width: )" srcset="./public/R312-25-TD5/assets/Projects/thumbnail-project-1-large">
         <source media="(min-width: 768px)" srcset="">
 
         <img src="./public/R312-25-TD5/assets/Projects/thumbnail-project-1-small.webp" alt="">
       </picture>
-      <figcaption>
+      <figcaption >
         <h4>ENTERTAINMENT WEB APP</h4>
         <div>
           <p class="text-(--clr-gray-400)">HTML</p>
@@ -151,8 +156,8 @@
         </div>
       </figcaption>
     </figure>
-
-    <figure>
+<!-- 5 -->
+    <figure >
       <picture>
         <source media="(min-width: )" srcset="./public/R312-25-TD5/assets/Projects/thumbnail-project-1-large">
         <source media="(min-width: 768px)" srcset="">
@@ -172,7 +177,7 @@
         </div>
       </figcaption>
     </figure>
-
+<!-- 6 -->
     <figure>
       <picture>
         <source media="(min-width: )" srcset="./public/R312-25-TD5/assets/Projects/thumbnail-project-1-large">
@@ -193,23 +198,22 @@
         </div>
       </figcaption>
     </figure>
-
-    <footer>
-      <h1>Contact</h1>
+    </main>
+<!-- footer -->
+    <footer class="p-4 hrs bg-(--clr-gray-800)">
+      <h1 class="font-bold text-4xl">Contact</h1>
       <p>I would love to hear about your project and how I could help. Please fill in the form, and I'll get back to you
         as soon as possible.</p>
 
-      <form action="">
-        <input type="text" name="NAME">
-        <hr>
-        <input type="text" name="EMAIL">
-        <hr>
-        <input type="text" name="MESSAGE">
-
-
+      <form class=" pb-20 flex flex-col " action="">
+        <input  class="h-16" name="input" type="text" placeholder="NAME">
+        <hr class="txt-(--clr-gray-800)   ">
+        <input  class="h-16" name="input" type="text" placeholder="EMAIL">
+        <hr class="txt-(--clr-gray-800)  ">
+        <input class="h-16" name="input" type="text" placeholder="MESSAGE">
       </form>
-      <hr>
-      <a href="">SEND MESSAGE</a>
+      <hr class=" txt-(--clr-white) w-full ">
+      <a class="lnk" href="">SEND MESSAGE</a>
       <div>
         <h1 class="fig-title text-2xl ">adamkeyes</h1>
         <div class="fig-socials flex gap-4 justify-center my-4">
@@ -223,7 +227,7 @@
         </div>
       </div>
     </footer>
-  </main>
+  
 </body>
 
 </html>

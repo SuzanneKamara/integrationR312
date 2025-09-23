@@ -25,7 +25,18 @@
     color:var(--clr-green);
     text-decoration:underline;
 }
-@utility underline-green{
-    text-decoration:underline;
-    text-decoration-color:var(--clr-green-300);
+@utility titles{
+    h3{
+        font-weight:bold;
+        font-size:1.5rem;
+    }
+    
+}
+
+@utility hrs{
+    hr{
+
+   
+    color:var(--clr-gray-400);
+     }
 }
